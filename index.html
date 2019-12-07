@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 2 - Nov 2019</title>
+
+    <!-- leaflet CSS -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/assignment2-style.css"/>
+</head>
+
+<body>
+
+
+<div class="head">
+    <h3 class="date"> .November 2019</h3>
+    <h1>ASSIGNMENT 2</h1>
+    <h3 class="functionality">&#8226; Event handling &#8226; HTML DOM &#8226; CSS rules &#8226; Leaflet.js &#8226; Turf.js &#8226;</h3>
+</div>
+
+<header>
+</header>
+<main>
+    <section>
+        <label>Ramdom points:</label> <input id="num" type="number">
+        <button id="btn-points" type="button">Generate!</button>
+        &nbsp;&nbsp;
+        <label id="lbl-compute" class="hide">Analysis:</label> 
+        <select id="sel-compute" class="hide">
+            <option value="none">Choose one</option>	
+            <option value="centroid">centroid</option>
+            <option value="buffer">buffer</option>
+            <option value="voronoi">voronoi</option>
+        </select> 
+    </section>
+    
+    <br><br>
+
+    <section id="table-section">
+        <div id="table-div" class="hide">
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th>Longitud</th>
+                    <th>Latitud</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>    
+        </table>
+        </div>
+    </section>
+
+    <section id="map-section">
+        <div id="map-div"></div>
+    </section>
+</main> 
+
+<!-- leaflet CSS -->
+<script src="js/leaflet.js"></script>
+<!-- Turf -->
+<script src="js/turf.min.js"></script>
+<!-- custom libraries --> 
+<script src="js/utils.js"></script>
+<script src="js/assignment2-script.js"></script>
+
+
+</body>
+</html>

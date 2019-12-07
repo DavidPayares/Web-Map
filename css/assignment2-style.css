@@ -1,0 +1,212 @@
+/** If you are curious about "CSS variables", have a look at https://www.w3schools.com/css/css3_variables.asp **/
+:root {
+  --accent-neutral: #8B6D34;
+}
+
+/** Map Section Style **/
+
+#map-div {
+  position: absolute;
+  top: 260px;
+  left: 450px;
+  width: 66.6%;
+  height: 80%;
+}
+
+/**Table Section Style**/
+#table-div {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  width: 10%;
+  margin: 3%;
+  justify-content: center;
+}
+
+.lblView {
+  color: var(--accent-neutral);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: initial;
+}
+
+table {
+  border: 2px solid #0E2F44;;
+  border-radius: 8px;
+  margin: 10px;
+  background:  #0E2F44;
+  padding: 0 0 0 0;
+}
+
+td,
+th {
+  border: 2px solid  #0E2F44;
+  border-radius: 6px;
+  font-family: 'Segoe Ui Ligth';
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0E2F44;
+  background: white;
+}
+
+th {
+  color: orange;
+  background:  #0E2F44;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+#btn-points {
+  background-color: orange;
+  color: #0E2F44;
+  border: 2px solid #0E2F44;
+  border-radius: 8px;
+  padding: 10px 10px;
+  font-family: 'Segoe UI Ligth';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#btn-points:hover {
+  background-color: #0E2F44;
+  color: white;
+}
+
+.table {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-family: 'Segoe UI Ligth';
+}
+
+.table:hover:enabled {
+  background-color: orange;
+  color: white;
+}
+
+.table:disabled {
+  border: 0;
+  font-size: 12px;
+  color: orange;
+}
+
+input {
+  border: 2px solid white;
+  border-radius: 0 8px 8px 0;
+  padding: 13px 10px 11px 24px;
+  font-family: 'Segoe Ui Ligth';
+  width: 30px;
+  font-style: initial;
+  color: #0E2F44;
+}
+
+
+select {
+  display: block;
+  border: 2px solid white;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 0px 10px 10px;
+  font-family: 'Segoe Ui Ligth';
+  text-transform: uppercase;
+  color: #0E2F44;
+
+}
+}
+
+#num {
+  font-family: 'Segoe Ui Ligth';
+  font-size: 16px;
+}
+
+h1,
+header,
+body {
+  text-align: center;
+  font-family: 'Segoe UI Ligth';
+  height : 100%;
+}
+
+
+body {
+  background: white;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Segoe UI Ligth';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+h2,
+h3 {
+  display: inline-block;
+  background-clip: content-box;
+  font-family: 'Segoe UI Ligth';
+  font-weight: 100;
+  padding: 0px;
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+}
+
+.date {
+  padding: 30px 0 0 0;
+  letter-spacing: 30px;
+  text-align: center;
+  background-color: orange;
+}
+
+.functionality {
+  padding: 0 0 30px 0;
+  color: orange;
+}
+
+main {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+section {
+  padding: 10px 0;
+  background: orange;
+}
+
+#map-section,
+#table-section {
+  background: white;
+}
+
+label {
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 10px;
+  border-radius: 8px 0 0 8px;
+  letter-spacing: 2px;
+  margin-right: -5px !important;
+}
+
+.head {
+  background-color: #0E2F44;
+}
+
